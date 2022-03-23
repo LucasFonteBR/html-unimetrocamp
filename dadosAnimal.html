@@ -1,0 +1,88 @@
+</fieldset>
+
+<a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+    aria-expanded="false" aria-controls="multiCollapseExample1">Informações do animal</a>
+<fieldset class="collapse multi-collapse" id="multiCollapseExample1">
+
+    <div>
+        <label for="nome_animal">Nome:</label>
+        <input type="text" size="30" id="nome_animal"><br>
+    </div>
+    <div>
+        <label for="data_adocao">Data de adoção:</label>
+        <input type="date" id="data_adocao"><br>
+    </div>
+    <div>
+        <label for="raca_animal">Raça:</label>
+        <input type="text" name="raca_animal" id="raca_animal"><br>
+    </div>
+    <div>
+        <label for="descricao">Descrição breve:</label>
+        <br>
+        <textarea id="descricao" name="descricao" rows="4" cols="50" style="resize: none;"></textarea>
+    </div>
+    <div>
+        <label>Faixa Etária:</label>
+        <br>
+        <input type="radio" name="novo" id="filhote">
+        <label for="filhote">Filhote</label>
+        <input type="radio" name="maduro" id="maduro">
+        <label for="maduro">Adulto </label>
+        <input type="radio" name="idoso" id="idoso">
+        <label for="idoso">Velho </label>
+    </div>
+    <div>
+        <label>Já vacinado?</label>
+        <br>
+        <input type="radio" name="vacina" id="com_vacina" value="sim">
+        <label for="com_vacina">Sim</label>
+        <input type="radio" name="vacina" id="sem_vacina" value="nao">
+        <label for="sem_vacina">Não</label>
+    </div>
+    <div>
+        <h3>Quais vacinas o animal possui?</h3>
+        <input type="checkbox" name="vacina1" id="vacina1" value="1">
+        <label for="vacina1">Vacina antirrábica.</label>
+        <label for="data_vacina1">Data da vacinação:</label>
+        <input type="date" size="30" id="data_vacina1">
+    </div>
+    <div>
+        <input type="checkbox" name="vacina2" id="vacina2" value="2">
+        <label for="vacina2">Vacina múltipla ou polivalente (V8 e V10).</label>
+        <label for="data_vacina2">Data da vacinação:</label>
+        <input type="date" size="30" id="data_vacina2">
+    </div>
+    <div>
+        <input type="checkbox" name="vacina3" id="vacina3" value="3">
+        <label for="vacina3">Vacina contra a giardíase.</label>
+        <label for="data_vacina3">Data da vacinação:</label>
+        <input type="date" size="30" id="data_vacina3">
+    </div>
+    <div>
+        <input type="checkbox" name="vacina4" id="vacina4" value="4">
+        <label for="vacina4">Vacina contra a gripe canina.</label>
+        <label for="data_vacina4">Data da vacinação:</label>
+        <input type="date" size="30" id="data_vacina4">
+    </div>
+    <div>
+        <input type="checkbox" name="vacina5" id="vacina5" value="5">
+        <label for="vacina5">Vacina contra a leishmaniose.</label>
+        <label for="data_vacina5">Data da vacinação:</label>
+        <input type="date" size="30" id="data_vacina5">
+    </div>
+    <div>
+        <input type="checkbox" name="vacina6" id="vacina6" value="6">
+        <label for="vacina6">Animal não vacinado.</label>
+    </div>
+    <div>
+        <label for="outra_vacina">Caso o animal tenha tomado outra vacina informe ela e a data de
+            vacinação:</label>
+        <br>
+        <textarea name="outra_vacina" id="outra_vacina" rows="4" cols="50"
+            style="resize: none;"> </textarea>
+    </div>
+</fieldset>
+<br>
+<div class="form-group">
+    <button class="btn btn-primary" type="submit">Enviar</button>
+</div>

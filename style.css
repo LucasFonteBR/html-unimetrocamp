@@ -1,0 +1,13 @@
+body{
+    background-color:rgb(135, 183, 226);
+    padding-bottom:50px ;
+}
+.card{
+    box-shadow: 3px 6px 8px 3px rgba(100, 100, 100, 0.3);
+}
+.container{
+    padding-top: 100px;
+}
+footer{
+    padding-top: 20px;
+}
